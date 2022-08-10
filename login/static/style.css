@@ -1,0 +1,197 @@
+html {
+    min-height: 100%;
+}
+
+body {
+
+    background-color: pink;
+    font-family: 'Roboto', sans-serif;
+}
+
+#heading {
+    color: aliceblue;
+    background-color: #020f04;
+    text-align: center;
+    position: relative;
+    margin-right: 200px;
+    font-style: normal;
+    font-size: xxx-large;
+    font-weight: 800;
+
+}
+
+#sub {
+    color: rgb(143, 46, 16);
+    text-align: center;
+    font-style: normal;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+#head {
+    text-align: center;
+}
+
+.sign-up {
+    height: 590px;
+    width: 360px;
+    margin: auto;
+
+    padding-top: 20px;
+    border-radius: 4px;
+    background-color: rgb(226, 224, 179);
+}
+
+form {
+
+    margin-left: 20px;
+    width: 320px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#info {
+    text-align: center;
+    font-size: 15px;
+}
+
+.sign-in {
+    height: 280px;
+    width: 360px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 4px;
+    background-color: rgb(226, 224, 179);
+}
+
+#info1 {
+    text-align: center;
+    font-size: 15px;
+}
+
+form input {
+    width: 100%;
+    border: none;
+    padding: 7px;
+    border: 1px solid gray;
+}
+
+input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 4px;
+}
+
+.search {
+    float: right;
+}
+
+.search input[type=text] {
+
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 86px;
+    font-size: 17px;
+}
+
+.search input[type=button] {
+    width: 80px;
+    height: 30px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 6px;
+    background-color: rgb(24, 205, 160);
+}
+
+.list {
+    background-color: #020f04;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    height: 49px;
+    width: 80px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 18px;
+    background-color: #63ee7b;
+    font-size: 16px;
+    color: rgb(110, 25, 153);
+    text-decoration: none;
+    font-family: 'Rubik Dirt', cursive;
+    
+}
+
+a :hover{
+    background-color: yellow;
+}
+.header{
+    background-color: #020f04;
+    text-align: center;
+}
+.word{
+    color: white;
+}
+.nit{
+    border-radius: 8px;
+    border: 6px solid rgb(221, 171, 89);
+}
+
+table td{
+    border: 3px solid rebeccapurple;
+    border-radius: 7px; 
+    padding: 15px;  
+}
+#c1{
+    background-color: #52bbd0;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: large;
+}
+#c2{
+    background-color: #aee115;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: large;
+}
+
+
+a{
+    text-decoration: none;
+}
+.bottom{
+    
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+#com{
+    display: flex;
+    font-size: large;
+    height: 47px;
+    width: 215px;
+    border: #020f04;
+    background-color: #1ece38;
+    border-radius: 8px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.Comm{
+    align-items: center;
+    justify-content: center;
+}

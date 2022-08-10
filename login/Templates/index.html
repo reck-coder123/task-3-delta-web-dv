@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title> Memories </title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+	<div class="whole">
+		<div class="header">
+			<h1 id="heading">Memories:)</h1>
+		</div>
+		<div>
+			<nav class="Bar">
+				<ul>
+					<div class="list">
+						<li class="active"><a href="{{url_for('index')}}">Home</a></li>
+						<li><a href="{{url_for('profile')}}">profile</a></li>
+
+						<li><a href="{{url_for('update')}}">Update your profile</a></li>
+						<li><a href="{{url_for('search')}}">Search your friends</a></li>
+						<li><a href="{{url_for('read_comments')}}"> Read Comments</a></li>
+						<li><a href="{{url_for('logout')}}">Log out</a></li>
+					</div>
+				</ul>
+			</nav>
+		</div><br><br>
+
+		<div align="center">
+			<div align="center" class="border">
+
+
+
+
+				<h1 class="bottom">
+					Hi {{session.username}}!!</br></br> Welcome to your Memories...
+				</h1>
+				<h2 style="font-family: 'Oleo Script Swash Caps', cursive;">let's dive to the beautifull memories and
+					stories</h2>
+				<img src="https://www.thenewsminute.com/sites/default/files/NITTrichy_WikiCommons_1200_26122020-compressed.jpg"
+					alt="Nit Trichy" width="500" height="300" class="nit">
+
+			</div>
+		</div>
+	</div>
+	
+</body>
+
+</html>

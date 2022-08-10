@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Comments</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div class="header"><h1 id="heading">Memories</h1></div>
+    <div class="Bar">
+        
+        <ul>
+            <li ><a href="{{url_for('index')}}">Back to Home</a></li>
+            <li class="active"><a href="{{url_for('profile')}}">Profile</a></li>
+            <li><a href="{{url_for('update')}}">Update your profile</a></li>
+            <li><a href="{{url_for('logout')}}">Log out</a></li>
+        </ul>
+    </div><br><br>
+    <div align="center">
+        <div align="center" class="border">
+
+
+            
+            <h2 class="bottom" style="text-align: centre;">
+                Comments
+            </h2></br>
+            <div class="border">
+                <table class="worddark"></br></br></br></br>
+                    {% for c in comments %} 
+                    <tr>
+                        <td id="c1"> {{c[1]}}</td>
+                        <td id="c2"> {{c[2]}}</td>
+                    </tr>
+                    {% endfor %}   
+                </table>
+            </div>
+        </div>
+    </div>
+    </body>
+
+</html>
